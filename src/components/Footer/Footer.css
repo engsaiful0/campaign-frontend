@@ -1,0 +1,511 @@
+
+.Talbot_footer-section {
+    width: 100%;
+    height: auto;
+    background-color: rgba(15, 24, 56, 1);
+    margin-top: 90px;
+}
+.footer {
+    display: flex;
+     justify-content: space-around;
+     padding-top: 60px;
+      margin: auto;
+      padding-bottom: 20px;
+}
+.footer h3 {
+    color: white;
+    font-style: normal;
+    font-family: DMSans-Bold;
+    font-weight: 700;
+    font-size: 24px;
+    margin-left: 10px;
+}
+.footer h4 {
+    color: white;
+    font-style: normal;
+    font-family: DMSans-Bold;
+    font-weight: 700;
+    font-size: 24px;
+    margin-left: 10px;
+}
+.Box a{
+   display: block;
+   text-decoration: none;
+   list-style: none;
+   color: white;
+   padding: 10px;
+   font-size: 14px;
+   margin: 10px;
+   margin-left: -5px;
+}
+.Box a:hover {
+    color:white;
+}
+
+.Footer---Logo {
+    width: 50%;
+   margin-left: -15px;
+   margin-top:-13px ;
+}
+.top-text  {
+    color: white;
+    padding-bottom: 20px;
+}
+.Box_1 p span {
+     color: rgba(57, 218, 129, 0.8);
+
+    font-family: DMSans-Regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    opacity: 0.8;
+}
+.Box_1 {
+    width: 30%;
+    margin-left: 20px;
+}
+.Box_1 p {
+    color: #FFFFFF;
+    font-family: DMSans-Regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    opacity: 0.8;
+    margin-left: 5px;
+}
+.user-input-box input:hover {
+    background: rgba(57, 218, 129, 0.8);
+
+ }
+ .user-input-box input {
+    background: #222943;
+    border: 0.852459px solid #8D8D8D;
+    color: rgba(141, 141, 141, 1);
+    border-radius: 5.11475px;
+    width: 380px;
+    display: block;
+    padding: 15px;
+    outline: none;
+    font-family: DMSans-Regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+label {
+    color: #CCC6C6;
+    margin: 5px ;
+    font-family: DMSans-Regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+textarea {
+    width: 380px;
+    height: 100px;
+    background: #222943;
+    border: 0.852459px solid #8D8D8D;
+    color: rgba(141, 141, 141, 1);
+    border-radius: 5.11475px;
+    box-sizing: border-box;
+    display: block;
+    outline: none;
+    font-family: DMSans-Regular;
+    padding: 15px 12px;
+    resize: none;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+
+/*
+textarea::placeholder {
+    position: absolute;
+    top: 10%;
+    left: 10px;
+  transform: translateY(-50%);
+} */
+.submit---BTN {
+    padding: 10px 60px;
+    background: rgba(57, 218, 129, 0.8);
+    border-radius: 4px;
+    width: 380px;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-family: DMSans-Regular;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+.social-links {
+    padding-top: 30px;
+}
+.White--icon {
+    color: white;
+    margin-right: 10px;
+    font-size: 20px;
+}
+/*
+.bottom-TEXT {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin-left: 50px;
+    padding-bottom: 20px;
+} */
+
+.copyright-area p {
+    font-family: DMSans-Regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #AAAAAA;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 20px;
+    margin-top: 15px;
+    padding-left: 5%;
+}
+.rounded_Ico {
+    display: flex;
+    padding-top: 60px;  
+}
+.conditions a {
+    padding: 30px;
+    text-decoration: none;
+    list-style: none;
+    color: #AAAAAA;
+    font-family: DMSans-Regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+.conditions a:hover {
+    color: rgba(57, 218, 129, 0.8);
+
+}
+.Social_Lnk {
+    background: rgba(57, 218, 129, 0.8);
+    color: rgba(255, 251, 251, 0.65);
+    border-radius: 8px;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    align-items: center;
+    margin: 7px;
+}
+.inherit---icon {
+   font-size: 25px;
+   margin: auto;
+}
+a.Links {
+    margin-bottom: -10px;
+    
+}
+
+ 
+
+a.Links--1 {
+   display: flex;
+}
+a.Links--2 {
+    display: flex;
+} 
+.sidetext {
+   
+    margin-left: 30px;
+}
+/*
+@media(min-width:1400px) {
+    .Footer---Logo {
+        margin-left: -30px;
+    }
+    
+    .Box p {
+        margin-left: -20px;
+    }
+} */
+@media (max-width:1024px) {
+    
+    .Box_1 p {
+        font-size: 13px;
+    }
+    .Footer---Logo {
+        margin-left: 25px;
+    }
+    .rounded_Ico {
+        display: flex;
+        padding-top: 60px;
+        margin-left: 20px;
+}
+.Box_1 {
+    margin-left: 30px;
+}
+
+}
+@media (max-width:992px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin: auto;
+    }
+    .Footer---Logo {
+       margin-top: -40px;
+       margin-left: 0px;
+       margin: auto;
+       text-align: center;
+    }
+    .footer .Box {
+        margin: 10px;
+    }
+    .Box_1 {
+        width: 70%;
+        margin-left: 0px;
+        text-align: center;
+        margin: auto;
+    }
+    .conditions a {
+        padding: 15px;
+    }
+    .Submit-LEFT-BUTTON {
+        display: flex;
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+       }
+       .rounded_Ico {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin: auto;
+        margin-top: -30px;
+    }
+    .footer h3 {
+        margin-left: 0px;
+        text-align: center;
+        margin: auto;
+    }
+    .footer h4 {
+        margin-left: 0px;
+        text-align: center;
+        margin: auto;
+    }
+    .Label--name {
+        margin-left: -340px;
+    }
+    .Label--Name {
+        margin-left: -320px;
+    }
+    .sidetext {
+    margin-right: 115px;
+    }
+    .Links--1 {
+        margin-right: 165px;
+    }
+    .Links--2 {
+        margin-right: 50px;
+    }
+    .copyright-area p {
+        text-align: center;
+        margin: auto;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-top: 10px;
+    }
+   
+}
+@media (max-width:576px) {
+    .footer .Box {
+        margin: 5px;
+    }
+    .Links--2 {
+        margin-right: 50px;
+    }
+}
+    @media (max-width:480px) {
+        .footer h3 {
+            text-align: center;
+        }
+        .conditions a {
+            padding: 5px;
+        }
+        p.message{
+            width: 300px;
+            height: auto;
+    }
+    input {
+        width: 300px;
+    }
+    .Label--name {
+        margin-left: -260px;
+    }
+    .Label--Name {
+        margin-left: -240px;
+    }
+    textarea {
+        width: 300px;
+    }
+    .submit---BTN {
+        width: 300px;
+    }
+    .Submit-LEFT-BUTTON {
+     display: flex;
+     margin: auto;
+     text-align: center;
+     justify-content: center;
+     margin-bottom: 15px;
+    }
+    .social-links {
+        padding-top: 15px;
+    }
+    .rounded_Ico {
+        padding-top: 15px;
+    }
+    .Links--1 {
+        margin-right: 165px;
+    }
+    .sidetext {
+    margin-right: 115px;
+    }
+}
+    @media (max-width:380px) {
+        .footer h3 {
+            text-align: center;
+        }
+        .conditions a {
+            padding: 5px;
+           font-size: 12px;
+        }
+        .copyright-area p {
+            font-size: 12px;
+        }
+        p.message{
+            width: 260px;
+            font-size: 12px;
+        }
+        input {
+            width: 300px;
+        }
+        .Label--name {
+            margin-left: -260px;
+        }
+        .Label--Name {
+            margin-left: -240px;
+        }
+        textarea {
+            width: 300px;
+        }
+        .submit---BTN {
+            width: 300px;
+        }
+        .Social_Lnk {
+            width: 40px;
+            height: 40px;
+        }
+        .inherit---icon {
+            font-size: 18px
+        }
+    }
+    @media (max-width:340px) {
+        .Box a{
+            font-size: 12px;
+        }
+    }
+    @media (max-width:320px) {
+        .Box a{
+            font-size: 12px;
+        }
+        .Box p {
+            font-size: 14px;
+        }
+        .footer h3 {
+            text-align: center;
+            font-size: 20px;
+        }
+        .conditions a {
+            padding: 5px;
+           font-size: 12px;
+        }
+        .copyright-area p {
+            font-size: 12px;
+        }
+        p.message{
+            width: 190px;
+            font-size: 9px;
+        }
+        input {
+            width: 210px;
+            padding: 10px;
+        }
+        textarea {
+            width: 210px;
+        }
+        .Label--name {
+            margin-left: -180px;
+        }
+        .Label--Name {
+            margin-left: -160px;
+        }
+        .submit---BTN {
+            width: 210px;
+        }
+        .White--icon {
+            font-size: 15px;
+        }
+            .Box a{
+                font-size: 10px;
+            }
+            .Links--1 {
+                margin-right: -90px;
+            }
+            .sidetext {
+            margin-right: 90px;
+            }
+        }
+    @media (max-width:280px) {
+        .footer h3 {
+            text-align: center;
+            font-size: 20px;
+        }
+        .conditions a {
+            padding: 5px;
+           font-size: 12px;
+        }
+        .copyright-area p {
+            font-size: 12px;
+        }
+        p.message{
+            width: 190px;
+            font-size: 9px;
+        }
+        input {
+            width: 220px;
+            padding: 10px;
+        }
+        textarea {
+            width: 220px;
+        }
+        .submit---BTN {
+            width: 220px;
+        }
+        .White--icon {
+            font-size: 15px;
+        }
+            .Box a{
+                font-size: 10px;
+            }
+        }

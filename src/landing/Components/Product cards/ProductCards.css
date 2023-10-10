@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+.Product-card-section {
+    padding-top: 120px;
+}
+.paragraph-content {
+    float: left;
+    margin-left: 20px;
+    padding-top: 15px;
+    width:100%;
+}
+.card_content h1 {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+
+}
+.card_heading {
+    display: flex;
+    margin: auto;
+    margin-top: 90px;
+
+}
+h2 {
+    font-size: 30px;
+    text-align:center;
+    padding-top: 60px;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+.Product-details {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.card_content {
+    width: 27%;
+    margin: 15px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 25px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    transition: .4s;
+    background: #f2f2f2;
+    margin-top: 90px;
+}
+.card_content:hover {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transform: translate(0px, -8px);
+}
+.donate-btn {
+    margin-right: 30px;
+    
+}
+.donate-btn .buy {
+    float: right;
+}
+.Card-img {
+    width: 340px;
+    height: 230px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+.card_content p {
+    color: #b2bec3;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card_content button {
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    padding: 6px 10px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+  background: #2c7bef;
+  margin-bottom: 20px;
+}
+
+.donate-btn .buy-1 {
+    text-align: center;
+    font-size: 14px;
+   color: white;
+    padding: 6px 10px;
+    border: none;
+    background: rgb(231, 10, 10);
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.Blu-txt {
+    color:#2c7bef;
+    padding-top: 20px;
+}
+.red-txt {
+    color: rgb(231, 10, 10);
+    padding-top: 20px;
+}
+
+@media (max-width:1024px) {
+    .card_content {
+        width: 45%;
+    }
+}
+@media (max-width:992px) {
+    .Product-card-section {
+        margin-top: -150px;
+    }
+}
+
+@media (max-width:750px) {
+    .card_content {
+        width: 100%
+    }
+}
+
+@media (max-width:540px) {
+    .card_content {
+        width: 80%;
+    }
+}

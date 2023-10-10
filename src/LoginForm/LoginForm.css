@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+.Form-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+       background: #edf2f9;
+       
+}
+.vv {
+    position: relative;
+}
+
+.circle-img {
+    position: absolute;
+    top: -10%;
+    margin-bottom: 5%;
+    right: 7%;
+    width:250px;
+    /* You can also add padding or margin to create spacing as needed */
+    
+}
+
+.bottom--img {
+    position: absolute;
+    left:12%;
+    bottom:0;
+    width: 150px;
+    
+
+}
+.containerr {
+    max-width: 850px;
+    width: 100%;
+    height: 550px;
+    background-color: white;
+    padding:40px 30px;
+    box-shadow:0 5px 10px rgba(0,0,0,0.2) ;
+    position: relative;
+    
+}
+.login-form {
+    margin-right: 40px;
+}
+.containerr .cover {
+    position: absolute;
+    width:40%;
+    height: 100%;
+    background-color: #2c7bef;
+    top: 0;
+    left: 0;
+    
+}
+.containerr .cover .frames {
+    position: absolute;
+    text-align: center;
+    padding-top: 50px;
+}
+.containerr .cover .frames h2 {
+    display: flex;
+    text-align: center;
+    justify-content:center;
+    color: #fff;
+}
+.Center_text .paragraph {
+    color: white;
+    width: 80%;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+
+    
+}
+.Center_text {
+    color: white;
+    padding-top: 40px;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+.bb p {
+    padding-top: 100px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+p .start {
+    color: white;
+    text-decoration:underline;
+}
+.Login--Condition {
+      padding-top: 50px;
+      font-family: 'Montserrat', sans-serif;
+      color: rgb(255,255,255)
+}
+ .policy {
+    color: rgb(255,255,255);
+    font-size: 14px;
+    font-weight:500;
+    font-family: 'Montserrat', sans-serif;
+}
+.policy a {
+text-decoration: underline;
+}
+.containerr form {
+    height: 100%;
+    width:100%;
+    background: white;
+}
+.containerr .form-content {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+}
+form .form-content .title {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    margin-bottom: 20px;
+    padding-top: 60px;
+}
+.inputbox input {
+    width: 100%;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+    border: 1px solid #d8e2ef;
+    outline:none;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.075);
+    line-height: 1.5;
+    border-radius: 5px;
+}
+.inputbox input[type='button'] {
+    background-color: #2c7bef;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    opacity: 0.65;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+.inputbox span {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+    line-height: 2;
+}
+input [type='checkbox'] {
+    background-color: #2c7bef;
+    border: #2c7bef;
+    
+}
+
+.remember {
+    margin-bottom: 20px;
+    font-size:18px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.forgot-link {
+    display: flex;
+    float: right;
+    color:#2c7bef;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}

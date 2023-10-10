@@ -1,0 +1,41 @@
+#footer {
+  background-image: linear-gradient(to right, #2c6ccc, #2403db);
+  color: #fff;
+}
+.footer-box {
+  padding: 20px;
+}
+.footer-box img {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+.footer-box .fa-solid {
+  margin-right: 8px;
+  font-size: 25px;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  padding-top: 12.5px;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, #2c6ccc, #2403db);
+}
+
+.footer-box .form-control {
+  box-shadow: none !important;
+  border: none;
+  border-radius: 0;
+  margin-top: 25px;
+  max-width: 250px;
+}
+
+.footer-box .btn-primary {
+  box-shadow: none !important;
+  border: none;
+  border-radius: 0;
+  margin-top: 30px;
+  background-image: linear-gradient(to right, #2c6ccc, #2403db);
+}
+hr {
+  background-color: #fff;
+}

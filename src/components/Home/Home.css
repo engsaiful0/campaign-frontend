@@ -1,0 +1,142 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.small-text {
+  text-align: center;
+  position: absolute;
+}
+.small-text h1 {
+  color: white;
+  font-size: 70px;
+  font-family: DMSans-Bold;
+  font-weight: 700;
+  font-style: normal;
+}
+.small-text form {
+  background-color: white;
+  padding: 10px;
+  border-radius: 15px;
+  display: flex;
+  margin-top: 40px;
+}
+.small-text form input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 0 20px;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 992px) {
+  .small-text h1 {
+    font-size: 50px;
+  }
+  .small-text {
+    padding-top: 0px;
+  }
+  .horizontal-line {
+    width: 330px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .small-text h1 {
+    font-size: 40px;
+  }
+  .paragraph p {
+    font-size: 16px;
+  }
+  .center_line {
+    margin-top: 5px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .small-text {
+    padding-top: 35px;
+  }
+  .small-text h1 {
+    font-size: 12px;
+  }
+  .horizontal-line {
+    width: 150px;
+  }
+  .paragraph p {
+    font-size: 10px;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+  }
+  .center_line {
+    margin-bottom: 5px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .small-text {
+    padding-top: 20px;
+  }
+  .small-text h1 {
+    font-size: 10px;
+  }
+  .horizontal-line {
+    width: 150px;
+    height: 1px;
+  }
+  .center_line {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .paragraph p {
+    font-size: 9px;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 380px) {
+  .small-text {
+    padding-top: 20px;
+  }
+  .small-text h1 {
+    font-size: 9px;
+  }
+  .horizontal-line {
+    width: 100px;
+  }
+  .center_line {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .paragraph p {
+    font-size: 8px;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .small-text {
+    padding-top: 15px;
+  }
+  .small-text h1 {
+    font-size: 8px;
+  }
+  .horizontal-line {
+    width: 130px;
+  }
+  .paragraph p {
+    font-size: 5px;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+  }
+  .center_line {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+}

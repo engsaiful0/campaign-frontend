@@ -1,0 +1,34 @@
+.transparent-button {
+    margin-top: 20px;
+    padding: 8px 25px;
+    font-size: 18px;
+    background: transparent;
+    color: white;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.Register-form {
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top:-70px;
+}
+.Terms {
+    margin-bottom: 20px;
+    font-size:16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    
+}
+.Terms .blue-txt {
+    color: #2c7bef;
+}
+
+.twoforms {
+   display: flex;
+   justify-content: space-between;
+   gap: 10px;
+   
+}

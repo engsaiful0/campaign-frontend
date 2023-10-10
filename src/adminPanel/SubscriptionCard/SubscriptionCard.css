@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+.Pricing {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+.Header {
+    display: flex;
+    justify-content:space-between;
+    background: rgba(234, 235, 236, 0.1);
+}
+.Header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: #2c7bef;
+}
+.car-icon {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    color:#2c7bef;
+    margin-top: 30px;
+}
+.Card-Content {
+    width: 40%;
+    margin: 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 2px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    transition: .4s;
+    background: #edf2f9;
+    color: rgba(51, 51, 51, 0.7);
+    border: 1px solid  rgba(51, 51, 51, 0.2);
+    padding:2rem;
+    font-family: 'Montserrat', sans-serif;
+
+} 
+.CARD-Details {
+    width: 100%;
+    padding-top: 40px;
+}
+
+.CARD-Details > p {
+    padding: 10px 5px;
+    border-bottom: 1px solid rgba(51, 51, 51, 0.2);
+}
+.check-icon {
+   color:#2c7bef;
+   margin-right: 10px; 
+ 
+}
+.card-price {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color:#2c7bef;
+}
+
+.subs-button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px 10px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border: 2px solid #2c7bef;
+    color:#2c7bef;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.blur {
+    opacity: 0.4;
+}
+.purchase-button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px 10px;
+    border: none;
+    outline: none;
+    background:#2c7bef;
+    color: white;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+@media (max-width: 992px) {
+    .Card-Content {
+        width: 45%;
+    }
+}
+@media (max-width:540px) {
+    .Pricing {
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+    }
+    .Card-Content {
+        width: 100%;
+        justify-content: center;
+        margin: 20px auto;
+    }
+}
+@media (max-width:380px) {
+    .CARD-Details > p {
+        font-size: 14px;
+    }
+}
+@media (max-width:320px) {
+    .CARD-Details > p  {
+        font-size: 10px;
+    }
+    .purchase-button {
+        padding: 5px 5px;
+        font-size: 12px;
+
+    }
+    .subs-button {
+        padding:5px 5px;
+        font-size: 12px;
+}
+      .Header h1 {
+        font-size: 25px;
+      }
+      .car-icon {
+        font-size: 30px;
+      }
+      .card-price {
+        font-size: 15px;
+      }
+}

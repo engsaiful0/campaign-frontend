@@ -1,0 +1,457 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+
+}
+
+
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  padding: 0 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+nav {
+  width: 100%;
+  height: 80px;
+  position: absolute;
+  top: 0;
+  padding: 20px 0%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 4%;
+  padding-right: 4%;
+  text-align: center;
+  align-items: center;
+  position: sticky;
+  z-index: 9999;
+}
+
+.logo {
+  width: 15%;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 20px;
+}
+
+ul li {
+  margin-top: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+nav ul li a:hover {
+  color:rgba(57, 218, 129, 0.8);
+
+}
+
+/* Add this code to style the other links */
+
+
+.orange-btn {
+  background: #2c7bef;
+  padding: 11px 25px;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  border-radius: 5px;
+  border: none;
+  color: white;
+
+}
+
+.orange-btn:hover {
+  color: white;
+}
+
+
+.back-video {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  -o-object-fit: cover;
+  object-fit: cover;
+  background-position: center;
+
+}
+.profile-img{
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+
+}
+
+/* Navbar.css */
+
+/* Sticky Navbar Styles */
+.sticky-navbar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  z-index: 100;
+  transition: background-color 0.3s ease; /* Optional: Smooth color transition */
+}
+
+
+
+.logo {
+  width: 100px; /* Adjust logo width */
+}
+
+/* Menu Styles */
+.menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin-right: 20px; /* Adjust the spacing between menu items */
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white; /* Menu item text color */
+  font-weight: 500;
+  transition: color 0.3s ease; /* Optional: Smooth color transition */
+}
+
+.menu a:hover {
+  color: royalblue;/* Hover color */
+}
+
+/* User Dropdown Styles */
+.user {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.profile-img {
+  width: 32px; /* Adjust profile image size */
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 10px; /* Adjust spacing between image and username */
+}
+
+.options {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #fff; /* Dropdown background color */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
+  display: none;
+  flex-direction: column;
+  border-radius: 4px;
+  z-index: 10;
+}
+
+.user:hover .options {
+  display: flex;
+}
+
+.options a {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #333; /* Dropdown item text color */
+  transition: background-color 0.3s ease; /* Optional: Smooth background color transition */
+}
+
+.options a:hover {
+  background-color: #f0f0f0; /* Dropdown item hover background color */
+}
+
+/* Add any additional styles or customizations as needed */
+
+/*
+
+@media (min-width: 2000px) {
+  .logo {
+    width: 12%;
+    height: 90px;
+  }
+} */
+
+@media (min-width:1600px) {
+  .back-video {
+    min-height: 100%;
+  }
+
+  nav {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  .hero{
+    height: 1080px;
+  }
+}
+
+@media (min-width:1500px) {
+
+  .hero {
+    height: 869px;
+  }
+}
+
+ @media (min-width:1400px) {
+  
+
+  nav {
+    padding-left: 3%;
+    padding-right: 3%;
+   }
+  .hero{
+    height: 869px;
+  }
+ }
+
+@media (max-width:1280px) {
+  .hero {
+    height: 85vh;
+  }
+
+  .back-video {
+    min-height: 100%;
+  }
+}
+
+/*
+@media (max-width: 576px) {
+  .back-video {
+    position: relative;
+   width: 100%;
+   height: 50vh;
+    bottom: 0;
+    right: 0;
+  }
+}
+@media (max-width: 425px) {
+  .back-video {
+    position: relative;
+   width: 100%;
+   height: 70vh;
+    bottom: 0;
+    right: 0;
+  }
+}
+*/
+.sticky-navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+.sticky-navbar.scrolled {
+  background-color: rgba(30, 35, 61, 0.6);
+}
+
+.Menu-Icon {
+  display: none;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 3px;
+  background: #2c7bef;
+  margin-right: 0px;
+  width: 40px;
+  height: 40px;
+  margin-top: 15px;
+}
+
+.Menu-Icon span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 5px 3px;
+}
+
+@media (max-width:992px) {
+  nav ul li a {
+    margin: 10px;
+    text-align: center;
+    margin: auto;
+  }
+
+  .orange-btn {
+    margin: auto;
+    text-align: center;
+  }
+}
+
+@media(max-width:576px) {
+
+  .Menu-Icon {
+    margin-top: 7px;
+  }
+
+  .Menu-Icon span {
+    width: 15px;
+    height: 2px;
+    background-color: white;
+    margin: 2px 2px;
+  }
+
+  .Menu-Icon {
+    padding: 5px;
+    width: 30px;
+    height: 25px;
+  }
+
+  .Menu-Icon {
+    margin-top: -10px;
+  }
+
+  nav {
+    height: 60px;
+  }
+
+  .logo {
+    width: 25%;
+  }
+}
+
+
+
+@media(max-width:480px) {
+
+  /*
+    .Menu-Icon{
+    padding: 5px;
+    width: 40px;
+    height: 30px;
+    }
+    .Menu-Icon span {
+        width: 25px;
+        height: 2px;
+        background-color: white;
+        margin: 4px 3px;
+      } */
+  .orange-btn {
+    padding: 10px 15px;
+  }
+
+  nav {
+    height: 50px;
+  }
+}
+
+@media(max-width:380px) {
+
+  /*   .Menu-Icon span {
+        width: 15px;
+        height: 2px;
+        background-color: white;
+        margin: 2px 2px;
+      }
+      .Menu-Icon{
+        padding: 5px;
+        width: 30px;
+        height: 25px;
+        }
+  }
+  @media(max-width:280px) {
+    .Menu-Icon span {
+        width: 15px;
+        height: 2px;
+        margin: 2px 1px;
+      }
+      .Menu-Icon {
+        margin-top: 0px;
+      } */
+  .logo {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 992px) {
+
+  .menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: rgba(30, 35, 61, 0.6);
+    padding: 10px 20px;
+    padding-bottom: 40px;
+  }
+
+  .menu li {
+    margin-bottom: 15px;
+  }
+
+  .Menu-Icon {
+    display: block;
+  }
+
+  #menu-toggle:checked~.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  a.orange-btn {
+    text-align: center;
+    margin: auto;
+
+  }
+
+  .hero {
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+
+  .back-video {
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+  }
+}
